@@ -13,11 +13,11 @@ int main (void)
 {
 char lowerletter = 'a';
 
-while (lowerletter != 'z')
+while (lowerletter <= 'z')
 {
 putchar(lowerletter);
 lowerletter = lowerletter + 1;
 }
-putchar(lowerletter);
+putchar('\n');
 return (0);
 }
