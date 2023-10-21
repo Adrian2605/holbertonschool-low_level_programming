@@ -9,7 +9,7 @@
  *
  * Return: Always return zero.
  */
-int main (void)
+int main(void)
 {
 char lowerletter = 'a';
 
