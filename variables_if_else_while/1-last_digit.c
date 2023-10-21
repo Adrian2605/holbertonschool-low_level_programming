@@ -8,16 +8,16 @@
  * Description: Assigns a random value to n, and then prints which is the
  * last digit and tells if is greater than 5, 0 or less than 6 and not 0.
  *
- *
  * Return: Always return zero.
  */
 int main(void)
 {
 int n;
+int last_d;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-last_d = n % 10
+last_d = n % 10;
 
 if (last_d > 5)
 {
