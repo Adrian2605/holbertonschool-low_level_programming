@@ -4,10 +4,10 @@
 /**
  * main - Entry point
  *
- * Description - assigns a random number to the variable n
+ * Description: assigns a random number to the variable n
  * and prints if the value is negative, positive or zero
  *
- * Return - Always return zero
+ * Return: Always return zero.
  */
 int main(void)
 {
