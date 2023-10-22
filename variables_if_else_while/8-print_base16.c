@@ -12,7 +12,14 @@ int main(void)
 int t = 0;
 while (t <= 15)
 {
+if (t < 10)
+{
 putchar(t + '0');
+}
+else
+{
+putchar(t + 'a');
+}
 t = t + 1;
 }
 putchar('\n');
