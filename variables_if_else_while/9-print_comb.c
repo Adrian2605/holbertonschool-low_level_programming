@@ -18,8 +18,8 @@ if (number < 9)
 {
 putchar(',');
 putchar(' ');
-number = number + 1;
 }
+number = number + 1;
 }
 putchar('\n');
 return (0);
