@@ -18,7 +18,7 @@ putchar(t + '0');
 }
 else
 {
-putchar(t + 'a');
+putchar(t - 10 + 'a');
 }
 t = t + 1;
 }
