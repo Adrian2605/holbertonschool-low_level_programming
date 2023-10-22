@@ -10,9 +10,10 @@
 int main(void)
 {
 int t = 0;
-for (t; t<= 15; t++)
+while (t <= 15)
 {
 putchar(t + '0');
+t = t + 1;
 }
 putchar('\n');
 return (0);
