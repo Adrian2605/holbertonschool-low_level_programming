@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+/**
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+int main(void)
+{
+  int t = 0;
+
+  for (t ; t<=; t++)
+    {
+      putchar(t + '0');
+    }
+  putchar('\n');
+  return (0);
+}
