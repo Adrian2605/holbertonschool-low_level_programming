@@ -1,6 +1,6 @@
 #include <unistd.h>
 /**
- * main - Entry point.
+ * print_alphabet - Prints the alphabet in lowercase.
  *
  * Return: Always zero.
  */
@@ -13,11 +13,5 @@ while (letter <= 'z')
 write(1, &letter,1);
 letter = letter + 1;
 }
-return (0);
-}
-
-int main(void)
-{
-print_alphabet();
 return (0);
 }
