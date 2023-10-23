@@ -12,6 +12,6 @@ while (letter <= 'z')
 write(1, &letter, 1);
 letter = letter + 1;
 }
-write(1, "\n", 1);
+write(1, "\r\n", 2);
 return (0);
 }
