@@ -1,5 +1,4 @@
 #include <unistd.h>
-#include <stdio.h>
 /**
  * print_alphabet_lc - Prints the alphabet in lowercase.
  *
@@ -13,6 +12,6 @@ while (letter <= 'z')
 write(1, &letter, 1);
 letter = letter + 1;
 }
-putchar('\n');
+write(1, "\n", 1);
 return (0);
 }
