@@ -1,7 +1,12 @@
-#include <stdio.h>
+#include <unistd.h>
 
-char _print(char l);
+int print_alphabet()
 {
-printf("%s", l);
+char letter = 'a';
+while (letter <= 'z')
+{
+write(1, &letter,1);
+letter = letter + 1;
+}
 return (0);
 }
