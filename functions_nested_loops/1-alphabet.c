@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h>>
 /**
  * print_alphabet_lc - Prints the alphabet in lowercase.
  *
@@ -9,9 +9,9 @@ int print_alphabet_lc(void)
 char letter = 'a';
 while (letter <= 'z')
 {
-putchar(letter);
+_putchar(letter);
 letter = letter + 1;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
