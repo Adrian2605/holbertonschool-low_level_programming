@@ -3,9 +3,9 @@
  * main - Entry point.
  *
  * Return: Always zero.
- *
  */
-int print_alphabet()
+
+int print_alphabet(void)
 {
 char letter = 'a';
 while (letter <= 'z')
