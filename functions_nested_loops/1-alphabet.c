@@ -5,7 +5,7 @@
  * Return: Always zero.
  */
 
-int print_alphabet(void)
+int print_alphabet_lc(void)
 {
 char letter = 'a';
 while (letter <= 'z')
