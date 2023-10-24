@@ -11,11 +11,14 @@ int _putchar(char c);
 int print_alphabet_lc(void)
 {
 char letter = 'a';
-while (letter != '\v')
+int counter = 0;
+
+while (counter < 2)
 {
-if (letter == '{')
+if (letter == '{' || letter == '\v')
 {
 letter = '\n';
+counter = counter + 1;
 }
 _putchar(letter);
 letter = letter + 1;
