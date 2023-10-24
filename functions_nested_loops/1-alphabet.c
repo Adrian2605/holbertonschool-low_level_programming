@@ -16,6 +16,6 @@ while (letter <= 'z')
 _putchar(letter);
 letter = letter + 1;
 }
-_putchar('\n');
+write(1, "\n", 1);
 return (0);
 }
