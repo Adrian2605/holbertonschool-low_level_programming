@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include <stdio.h>
+#include <main.h>
 
 /**
  * print_alphabet - Prints the alphabet in lowercase.
@@ -12,10 +12,17 @@ int _putchar(char c);
 void print_alphabet(void)
 {
 char letter = 'a';
-while (letter <= 'z')
+int counter = 0;
+
+while (counter < 2)
 {
-_putchar(letter);
-++letter;
+if (letter == '{' || letter == '\v')
+{
+letter = '\n';
+counter = counter + 1;
 }
-_putchar('\n');
+_putchar(letter);
+letter = letter + 1;
+}
+return (0);
 }
