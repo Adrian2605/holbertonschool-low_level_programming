@@ -1,12 +1,9 @@
-#include <unistd.h>
+/**
+ * Functions protoptypes for tasks.
+ *
+ * Return: Always zero.
+ */
 
-int print_alphabet()
-{
-char letter = 'a';
-while (letter <= 'z')
-{
-write(1, &letter,1);
-letter = letter + 1;
-}
-return (0);
-}
+int _putchar(char c);
+
+void print_alphabet(void);
