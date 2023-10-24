@@ -23,5 +23,5 @@ counter = counter + 1;
 _putchar(letter);
 letter = letter + 1;
 }
-return (0);
+return (void);
 }
