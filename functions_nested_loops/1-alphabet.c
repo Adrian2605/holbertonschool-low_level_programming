@@ -8,7 +8,7 @@ int _putchar(char c);
  *
  * Return: Always zero.
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
   char letter = 'a';
   while (letter <= 'z')
