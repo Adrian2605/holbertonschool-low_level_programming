@@ -15,7 +15,7 @@ while (letter != '\v')
 {
 if (letter == '{')
 {
-letter = '\n'
+letter = '\n';
 }
 _putchar(letter);
 letter = letter + 1;
