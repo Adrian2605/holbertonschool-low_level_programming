@@ -8,20 +8,13 @@ int _putchar(char c);
  *
  * Return: Always zero.
  */
-int print_alphabet_lc(void)
+void print_alphabet(void);
 {
-char letter = 'a';
-int counter = 0;
-
-while (counter < 2)
-{
-if (letter == '{' || letter == '\v')
-{
-letter = '\n';
-counter = counter + 1;
-}
-_putchar(letter);
-letter = letter + 1;
-}
-return (0);
+  char letter = 'a';
+  while (letter <= 'z')
+    {
+      _putchar(letter);
+      ++letter;
+    }
+  _putchar('\n');
 }
