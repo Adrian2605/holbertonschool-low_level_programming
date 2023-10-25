@@ -11,9 +11,9 @@
 
 int _putchar(char c);
 
-int _abs(int i)
+long long  _abs(long long i)
 {
-int absolute_value;
+long long absolute_value;
 if (i < 0)
 {
 absolute_value = -i;
