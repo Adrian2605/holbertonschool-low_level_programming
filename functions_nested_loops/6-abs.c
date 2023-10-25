@@ -9,15 +9,15 @@
 
 int _abs(int i)
 {
-  int absolute_value;
-  if (i < 0)
-    {
-      absolute_value = -i;
-      return (absolute_value);
-    }
-  else
-    {
-      absolute_value = i;
-      return (absolute_value);
-    }
+int absolute_value;
+if (i < 0)
+{
+absolute_value = -i;
+return (absolute_value);
+}
+else
+{
+absolute_value = i;
+return (absolute_value);
+}
 }
