@@ -28,8 +28,8 @@ return (absolute_value);
 
 int print_last_digit(int n)
 {
-n = _abs(n);
 int last_d;
+n = _abs(n);
 last_d = n % 10;
 _putchar(last_d + '0');
 return (last_d);
