@@ -27,5 +27,5 @@ int print_sign(int n)
       return (1);
     }
 
-  write(1, sign, sizeof(sign) - 1);
+  write(1, &sign, 1);
 }
