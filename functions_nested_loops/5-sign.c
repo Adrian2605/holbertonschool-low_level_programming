@@ -8,8 +8,6 @@
  * return -1 if n is negative.
  */
 
-int _putchar(char c);
-
 int print_sign(int n)
 {
   char sign = '+';
@@ -29,5 +27,5 @@ int print_sign(int n)
       return (1);
     }
 
-  _putchar(sign);
+  write(1, &sign, 1);
 }
