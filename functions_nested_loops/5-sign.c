@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * print_sign - Prints the sign of a number.
  * @n: The integer whose sign is gonna be printed.
