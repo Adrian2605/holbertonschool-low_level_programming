@@ -14,11 +14,15 @@ for (hours = 0; hours < 24; hours++)
 {
 for (minutes = 0; minutes < 60; minutes++)
 {
-write(1, (hours / 10) + '0', 1);
-write(1, (hours % 10) + '0', 1);
+char printed1 = (hours / 10) + '0';
+char printed2 = (hours % 10) + '0';
+char printed3 = (minutes / 10) + '0';
+char printed4 = (minutes % 10) + '0';
+write(1, printed1, 1);
+write(1, printed2, 1);
 write(1, ":", 1);
-write(1, (minutes / 10) + '0', 1);
-write(1, (minutes % 10) + '0', 1);
+write(1, printed3, 1);
+write(1, printed4, 1);
 write(1, "\n", 1);
 }
 }
