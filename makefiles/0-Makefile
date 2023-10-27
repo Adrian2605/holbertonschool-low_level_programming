@@ -1,1 +1,3 @@
-Here goes the rules and all that.
+all: main.c school.c m.h
+	gcc main.c school.c -o school
+
