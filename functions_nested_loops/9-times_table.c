@@ -37,7 +37,6 @@ void times_table(void)
 		write(1, &p1_product, 1);
 		write(1, &p2_product, 1);
 		write(1, ",", 1);
-		write(1, " ", 1);
 	      }
 	    else
 	      {
@@ -57,8 +56,6 @@ void times_table(void)
                 write(1, " ", 1);
                 write(1, &p1_product, 1);
                 write(1, &p2_product, 1);
-                write(1, ",", 1);
-                write(1, " ", 1);
               }
 	    else
 	      {
