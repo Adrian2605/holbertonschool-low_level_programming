@@ -9,13 +9,14 @@
 void times_table(void)
 {
   int ntable, nfile, product;
+  char p_product;
 
   for (ntable = 0; ntable < 10; ++ntable)
     {
       for (nfile = 0; nfile < 10; ++nfile)
         {
           product = (ntable * nfile);
-          char p_product = product + '0';
+          p_product = product + '0';
 
           if (nfile == 0)
           {
