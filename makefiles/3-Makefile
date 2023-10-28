@@ -12,17 +12,17 @@ RM = rm
 all: $(NAME)
 
 $(NAME): $(OBJ)
-        $(CC) $^ -o $@
+	$(CC) $^ -o $@
 
 %.o: %.c
-        $(CC) -c $< -o $@
+	$(CC) -c $< -o $@
 
 re: fclean
 	make fclean
 	make all
 
 clean:
-        $(RM) -f *~ $(NAME) *.swp
+	$(RM) -f *~ $(NAME) *.swp
 
 oclean:
 	$(RM) $(OBJ)
