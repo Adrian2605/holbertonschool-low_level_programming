@@ -15,14 +15,14 @@ all: $(NAME)
 
 
 $(NAME): $(OBJ)
-        $(CC) $^ -o $@
+	$(CC) $^ -o $@
 
 
 %.o: %.c
-        $(CC) -c $< -o $@
+	$(CC) -c $< -o $@
 
 
 clean:
-        rm -f $(NAME) $(OBJ)
+	rm -f $(NAME) $(OBJ)
 
 .PHONY: clean
