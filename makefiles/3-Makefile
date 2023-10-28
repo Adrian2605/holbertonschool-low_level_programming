@@ -22,7 +22,7 @@ re: fclean
 	make all
 
 clean:
-        rm -f *~ $(NAME) *.swp
+        $(RM) -f *~ $(NAME) *.swp
 
 oclean:
 	$(RM) $(OBJ)
