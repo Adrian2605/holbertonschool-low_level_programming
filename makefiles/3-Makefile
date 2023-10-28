@@ -21,11 +21,11 @@ re: fclean
 	make fclean
 	make all
 
-clean:
+clean: $(NAME)
 	$(RM) -f *~ $(NAME) *.swp
 
-oclean:
+oclean: $(OBJ)
 	$(RM) $(OBJ)
 
-fclean:
+fclean: $(OBJ) $(NAME)
 	$(RM) -f *~ *.swp $(OBJ) $(NAME)
