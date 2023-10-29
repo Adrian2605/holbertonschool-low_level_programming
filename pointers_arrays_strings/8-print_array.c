@@ -12,11 +12,11 @@
 void print_array(int *a, int n)
 {
 int i = 0;
-
 while(i < n)
 {
 write(1, &a[i], 1);
 i++;
 }
+write(1, "\n", 1);
 return;
 }
