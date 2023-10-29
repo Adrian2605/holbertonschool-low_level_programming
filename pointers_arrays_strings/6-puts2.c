@@ -19,7 +19,7 @@ length++;
 }
 for (i = 0; i < length; i += 2)
 {
-write(1, str[i], 1);
+write(1, &str[i], 1);
 }
 write(1, "\n", 1);
 return;
