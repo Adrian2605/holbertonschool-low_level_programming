@@ -19,7 +19,7 @@ $(NAME): $(OBJ)
 
 re:
 	$(RM) -f $(OBJ) $(NAME)
-	make all
+	make all -f ./3-Makefile
 
 clean: $(NAME)
 	$(RM) -f *~ $(NAME) *.swp
