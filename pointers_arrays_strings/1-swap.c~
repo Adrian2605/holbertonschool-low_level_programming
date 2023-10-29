@@ -1,0 +1,21 @@
+#include <unistd.h>
+
+/**
+ * swap_int - Swaps the values inside two integers.
+ * @aaaaaaaaa
+ *
+ *
+ *
+ *
+ */
+
+void swap_int(int *a, int *b)
+{
+int c;
+
+c = *a;
+*a = *b;
+*b = c;
+
+return;
+}
