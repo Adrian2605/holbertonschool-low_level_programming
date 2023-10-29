@@ -17,7 +17,7 @@ while (i < n - 1)
 printf("%d, ", a[i]);
 i++;
 }
-printf("%d", a[i]);
-write(1, "\n", 1);
+ 
+printf("%d\n", a[i]);
 return;
 }
