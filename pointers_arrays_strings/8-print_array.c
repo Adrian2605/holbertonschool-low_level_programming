@@ -15,8 +15,8 @@ int i = 0;
 
 while(i < n)
 {
-write(1, a[i], 1);
-i++
+write(1, &a[i], 1);
+i++;
 }
 return;
 }
