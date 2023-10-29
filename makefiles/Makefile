@@ -18,7 +18,7 @@ $(NAME): $(OBJ)
 	$(CC) -c $< -o $@
 
 re:
-	$(RM) -f $(OBJ) $(NAME)
+	$(RM) $(OBJ)$(NAME)
 	make all
 
 clean: $(NAME)
