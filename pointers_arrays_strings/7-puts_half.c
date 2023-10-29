@@ -20,7 +20,7 @@ if ((length % 2) == 1)
 {
 length = (length - 1);
 }
-while(i <= length / 2)
+while (i <= length / 2)
 {
 i++;
 }
