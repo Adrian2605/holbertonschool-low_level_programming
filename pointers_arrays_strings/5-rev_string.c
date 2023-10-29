@@ -2,7 +2,7 @@
 
 /**
  * rev_string - Reverses a string.
- * @s: String to be reversed
+ * @s: String to be reversed.
  *
  * Return: Always void.
  */
@@ -10,22 +10,22 @@
 void rev_string(char *s)
 {
 int length = 0;
-int i = 0;
+char *start = s;
+char *end = s;
 
-while (*s != '\0')
+while (*end != '\0')
 {
 length++;
-s++;
+end++;
 }
+end--;
 
-s--;
-
-while (i < length / 2)
+while (start < end)
 {
-char temp = s[i];
-s[i] = s[length - i - 1];
-s[length - i - 1] = temp;
-i++;
+char temp = *start;
+*start = *end;
+*end = temp;
+start++;
+end--;
 }
-return;
 }
