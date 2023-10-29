@@ -17,8 +17,8 @@ $(NAME): $(OBJ)
 %.o: %.c
 	$(CC) -c $< -o $@
 
-re: fclean
-	make fclean
+re:
+	$(RM) $(OBJ)$(NAME)
 	make all
 
 clean: $(NAME)
